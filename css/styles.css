@@ -1,0 +1,47 @@
+body{
+    background-color: #93b5e1;
+    margin: 0;
+    text-align: center;
+}
+
+.title{
+    color: #be5683;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 8em;
+    margin: auto;
+    display:inline-block;
+    padding: 50px;
+}
+
+.player{
+    color: #ffe4e4;
+    font-size: 3em;
+    font-family: 'Gochi Hand', cursive;
+    margin: 5%;
+}
+
+.dice{
+    margin: 0 5%;
+}
+
+.display-player{
+    display: inline-block;
+}
+
+.wreath{
+    width: 20%;
+    display: inline-block;
+    padding: 40px;
+}
+
+footer {
+    color: #be5683;
+    text-align: center;
+    padding: 5%;
+    font-size: 2em;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.hidden{
+    visibility: hidden;
+}
