@@ -7,13 +7,10 @@ document.querySelector("#dice2").setAttribute("src", "./assets/images/dice" + ra
 + ".png");
 
 if(randomNumber1 < randomNumber2){
-    document.querySelector(".title").textContent = "Player 2 wins!";
-    //document.querySelector("#wreath2").classList.toggle(".hidden");
+    document.querySelector(".title").textContent = "Player 2 wins!🚩";
 }else if(randomNumber1 > randomNumber2){
-    document.querySelector(".title").textContent = "Player 1 wins!";
-    //document.querySelector("#wreath1").classList.toggle(".hidden");
+    document.querySelector(".title").textContent = "🚩Player 1 wins!";
+
 }else{
     document.querySelector(".title").textContent = "Draw!";
-    //document.querySelector("#wreath1").classList.toggle(".hidden");
-    //document.querySelector("#wreath2").classList.toggle(".hidden");
 }
