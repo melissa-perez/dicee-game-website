@@ -6,7 +6,7 @@ The Dicee dice game in web-app form. This website randomly casts dice for two pl
 
 ### App Walk-though
 
-<img src="simon-game.gif" width=200><br>
+<img src="dicee.gif" width=200><br>
 
 ## Required
 - [x] Dice rolls are displayed.
